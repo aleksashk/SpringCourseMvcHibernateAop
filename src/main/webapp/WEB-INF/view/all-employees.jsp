@@ -5,7 +5,7 @@
   Time: 17:33
   To change this template use File | Settings | File Templates.
 --%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -32,6 +32,9 @@
         </tr>
     </c:forEach>
 </table>
+
+<br>
+<input type="button" value="Add" onclick="window.location.href = 'addNewEmployee'"/>
 
 </body>
 </html>
